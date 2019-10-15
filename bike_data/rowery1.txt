@@ -1,0 +1,354 @@
+[
+    {
+        "offer_title": "Rower Husar AL. Rama 20/koła 28 Shimano Altus Tourney Tarczówki Amory",
+        "offer_price": "1 333 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-husar-al-rama-20-kola-28-shimano-altus-tourney-tarczowki-amory-CID767-IDABClo.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Lublin",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "Rower 29er NS Bikes Eccentric Lite 1 29\" 2018 rama L - 19,5 Piękny",
+        "offer_price": "2 999 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-29er-ns-bikes-eccentric-lite-1-29-2018-rama-l-19-5-piekny-CID767-IDAX7VT.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "CzestkówA",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "Rower górski I MTB 26 SHIMANO KANDS Energy 1300 ALTUS męski",
+        "offer_price": "949 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-gorski-i-mtb-26-shimano-kands-energy-1300-altus-meski-CID767-IDt5IPF.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Skawina",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "Rower Szosowy Przełajowy CANNONDALE CAADX Shimano 105 Przełaj Gravel",
+        "offer_price": "4 199 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-szosowy-przelajowy-cannondale-caadx-shimano-105-przelaj-gravel-CID767-IDAWV2Y.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Łódź, Widzew",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "Specialized Sirrus Elitę disc",
+        "offer_price": "1 199 zł",
+        "offer_url": "https://www.olx.pl/oferta/specialized-sirrus-elite-disc-CID767-IDzIggV.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Człuchów",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "Pedały szosowe SHIMANO SPD-SL PD-R550",
+        "offer_price": "110 zł",
+        "offer_url": "https://www.olx.pl/oferta/pedaly-szosowe-shimano-spd-sl-pd-r550-CID767-IDB2OGS.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Gdynia, PustkiCisowskie-Demptowo",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "rower romet orion - koła 28 cali - sprawny",
+        "offer_price": "200 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-romet-orion-kola-28-cali-sprawny-CID767-IDB2OGJ.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Poznań, Smochowice",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Sprzedam rower uzywany",
+        "offer_price": "200 zł",
+        "offer_url": "https://www.olx.pl/oferta/sprzedam-rower-uzywany-CID767-IDB2OGL.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Gdańsk, Siedlce",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Zębatki Stronglight CT2 Bio-Concept 53z-39z owalne, rozstaw 130mm",
+        "offer_price": "290 zł",
+        "offer_url": "https://www.olx.pl/oferta/zebatki-stronglight-ct2-bio-concept-53z-39z-owalne-rozstaw-130mm-CID767-IDrjqtN.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Kraków, Dębniki",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Kierownica - rower Wigry Romet",
+        "offer_price": "15 zł",
+        "offer_url": "https://www.olx.pl/oferta/kierownica-rower-wigry-romet-CID767-IDys3DG.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Sandomierz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Kask rowerowy dzieciecy 47-53cm b'twin fioletowy",
+        "offer_price": "20 zł",
+        "offer_url": "https://www.olx.pl/oferta/kask-rowerowy-dzieciecy-47-53cm-btwin-fioletowy-CID767-IDAqmss.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Buk",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rowerek biegowy RUN RIDE 500 10\" B'TWIN",
+        "offer_price": "160 zł",
+        "offer_url": "https://www.olx.pl/oferta/rowerek-biegowy-run-ride-500-10-btwin-CID767-IDAgaue.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Warszawa, Żoliborz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower 12''+ rowerek biegowy",
+        "offer_price": "80 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-12-rowerek-biegowy-CID767-IDANXhS.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Gorlice",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower Górski CANNONDALE F-SI CARBON 5 r. M Nowy! Raty!",
+        "offer_price": "8 999 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-gorski-cannondale-f-si-carbon-5-r-m-nowy-raty-CID767-IDB2ODz.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Bielsko-Biała",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "SPECIALIZED EPIC nie trek ,cube scott",
+        "offer_price": "1 480 zł",
+        "offer_url": "https://www.olx.pl/oferta/specialized-epic-nie-trek-cube-scott-CID767-IDB2OE8.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Łapino",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "KONA DE LUX 28\" M/L 2017 nie ktm cube giant scott",
+        "offer_price": "1 350 zł",
+        "offer_url": "https://www.olx.pl/oferta/kona-de-lux-28-m-l-2017-nie-ktm-cube-giant-scott-CID767-IDzRAr7.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Siedlce",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower 24 cali",
+        "offer_price": "700 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-24-cali-CID767-IDAQ4s7.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Swarzędz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "rower 20 cali",
+        "offer_price": "250 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-20-cali-CID767-IDzhPIB.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Kalisz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower",
+        "offer_price": "120 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-CID767-IDB2OCF.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Pleszew",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Specialized Pro Carbon",
+        "offer_price": "5 000 zł",
+        "offer_url": "https://www.olx.pl/oferta/specialized-pro-carbon-CID767-IDA8aDw.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Człuchów",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "UNIOR Trójstronny klucz imbusowy 4,5,6 1781/2HX",
+        "offer_price": "42 zł",
+        "offer_url": "https://www.olx.pl/oferta/unior-trojstronny-klucz-imbusowy-4-5-6-1781-2hx-CID767-IDB2OBL.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Kraków, Podgórze",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower kross hexagon x5",
+        "offer_price": "800 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-kross-hexagon-x5-CID767-IDzRyW8.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Warszawa, Ursus",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Lampa na baterie z uchwytem - rower Romet Wigry itp.",
+        "offer_price": "35 zł",
+        "offer_url": "https://www.olx.pl/oferta/lampa-na-baterie-z-uchwytem-rower-romet-wigry-itp-CID767-IDy2did.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Sandomierz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "rower",
+        "offer_price": "1 200 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-CID767-IDzu9UM.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Warszawa, Mokotów",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower elektryczny z Holandii.GAZELLE BATAVUS TREK itp. Duży wybór.",
+        "offer_price": "700 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-elektryczny-z-holandii-gazelle-batavus-trek-itp-duzy-wybor-CID767-IDAMLOo.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Warszawa, Białołęka",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "KROSS sprzedam",
+        "offer_price": "500 zł",
+        "offer_url": "https://www.olx.pl/oferta/kross-sprzedam-CID767-IDB2OBM.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Kalisz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "unibike flite, koła 26, amor, 24 biegi, rama 19, tarcza hamulcowa x 2",
+        "offer_price": "1 100 zł",
+        "offer_url": "https://www.olx.pl/oferta/unibike-flite-kola-26-amor-24-biegi-rama-19-tarcza-hamulcowa-x-2-CID767-IDB2OC4.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Poznań, Dębiec",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rowery",
+        "offer_price": "50 zł",
+        "offer_url": "https://www.olx.pl/oferta/rowery-CID767-IDACyuk.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Reczpol",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower 16* DECATHLON B-TWIN \"Policja\". Polecam.",
+        "offer_price": "235 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-16-decathlon-b-twin-policja-polecam-CID767-IDB2OAH.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "MiędzybrodzieŻywieckie",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower szosowy Merida race 900 w idealnym stanie",
+        "offer_price": "1 950 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-szosowy-merida-race-900-w-idealnym-stanie-CID767-IDzmkm2.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Kalisz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower 16 \" dla dziewczynki",
+        "offer_price": "200 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-16-dla-dziewczynki-CID767-IDB2OAW.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Pawłowice",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Strój kolarski sms santini KATUSHA protur",
+        "offer_price": "250 zł",
+        "offer_url": "https://www.olx.pl/oferta/stroj-kolarski-sms-santini-katusha-protur-CID767-IDAFNQX.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Solec",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rama scott scale 750",
+        "offer_price": "550 zł",
+        "offer_url": "https://www.olx.pl/oferta/rama-scott-scale-750-CID767-IDB2OAm.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Wałbrzych",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower górski marki Forester, przerzutki Shimano",
+        "offer_price": "150 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-gorski-marki-forester-przerzutki-shimano-CID767-IDAAxV5.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-06 00:00:00",
+        "offer_place": "Chełmno",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Kellys damski kola28 przerzutki Shimano stan bdb z koszykiem",
+        "offer_price": "299 zł",
+        "offer_url": "https://www.olx.pl/oferta/kellys-damski-kola28-przerzutki-shimano-stan-bdb-z-koszykiem-CID767-IDB2OzF.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Wrocław, Krzyki",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rowerek dla dziecka Bello 16 cali",
+        "offer_price": "450 zł",
+        "offer_url": "https://www.olx.pl/oferta/rowerek-dla-dziecka-bello-16-cali-CID767-IDAZwBd.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "WólkaLeśna",
+        "offer_promoted": true
+    },
+    {
+        "offer_title": "Przerzutka Romet",
+        "offer_price": "30 zł",
+        "offer_url": "https://www.olx.pl/oferta/przerzutka-romet-CID767-IDyKC6J.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Sandomierz",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Kultowy rower Delta skladak do przyszykowania",
+        "offer_price": "150 zł",
+        "offer_url": "https://www.olx.pl/oferta/kultowy-rower-delta-skladak-do-przyszykowania-CID767-IDA4aEl.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Olsztyn",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Kultowy rower Romet Turing 2 do przyszykowania",
+        "offer_price": "150 zł",
+        "offer_url": "https://www.olx.pl/oferta/kultowy-rower-romet-turing-2-do-przyszykowania-CID767-IDA4bma.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Olsztyn",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower Miejski",
+        "offer_price": "850 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-miejski-CID767-IDB2Oyz.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Warszawa, Bielany",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "sprzedam rower Centurion-Challender",
+        "offer_price": "500 zł",
+        "offer_url": "https://www.olx.pl/oferta/sprzedam-rower-centurion-challender-CID767-IDneNHi.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Sędzinko",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower dziewczęcy ARKUS LEGEND koła 24\" damka miejska",
+        "offer_price": "189 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-dziewczecy-arkus-legend-kola-24-damka-miejska-CID767-IDAExZM.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "BiałaPodlaska",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "UNIOR Trójstronny klucz nasadowy 8x9x10",
+        "offer_price": "70 zł",
+        "offer_url": "https://www.olx.pl/oferta/unior-trojstronny-klucz-nasadowy-8x9x10-CID767-IDB2Oyf.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Kraków, Podgórze",
+        "offer_promoted": false
+    },
+    {
+        "offer_title": "Rower 26''",
+        "offer_price": "300 zł",
+        "offer_url": "https://www.olx.pl/oferta/rower-26-CID767-IDATQGm.html#be3c2ed2a0",
+        "offer_add_time": "2019-08-05 00:00:00",
+        "offer_place": "Warzyn",
+        "offer_promoted": true
+    }
+]

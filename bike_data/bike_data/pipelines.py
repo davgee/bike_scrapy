@@ -26,7 +26,6 @@ class BikeDataPipeline(object):
             db_con.save_and_close()
 
         except:
-            self.log("Exception occured.")
             rollback = rollback.append(db_con.save_and_close)
             raise DropItem 
         finally:
@@ -35,5 +34,4 @@ class BikeDataPipeline(object):
                     rollback_func()
                 return "rollbacked."
 
-            return "Object added to database"
-        
+            return item # "Object added to database"

@@ -9,6 +9,8 @@ from scrapy.exceptions import DropItem
 
 class BikeDataPipeline(object):
     def process_item(self, item, spider):
+        if not item:
+            return "None is here!"
         rollback = []
         db_con = PostgreDjangoDB()
         cur = db_con.connect()
@@ -21,13 +23,13 @@ class BikeDataPipeline(object):
             columns_str = columns_str.replace("'", "").replace("[","").replace("]", "")
             data_str = str(data).replace("[","").replace("]", "")
 
-            statement = 'INSERT INTO bike_offers_olx (' + columns_str + ') VALUES (' + data_str + ')' 
+            statement = 'INSERT INTO bike_offers_olx (' + columns_str + ') VALUES (' + data_str + ')'
             cur.execute(statement)
             db_con.save_and_close()
 
         except:
             rollback = rollback.append(db_con.save_and_close)
-            raise DropItem 
+            raise DropItem
         finally:
             if rollback:
                 for rollback_func in rollback:

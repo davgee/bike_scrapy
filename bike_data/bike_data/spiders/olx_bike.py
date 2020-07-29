@@ -3,12 +3,9 @@ import scrapy
 import datetime
 import re
 from bike_data.items import BikeDataItem
-from bike_data.database_utils import DBHelper
-from scrapy.exceptions import CloseSpider
 from scrapy.http import Request
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import TakeFirst
-from scrapy.selector import Selector
 
 
 URL = 'https://olx.pl/sport-hobby/rowery/?page=%d'
@@ -34,7 +31,6 @@ def second_arg(value):
     return a
 
 def added_via_phone_in(value):
-    print("DUpadaspid", value)
     if len(value) > 0:
         return [True]
     else:
@@ -85,18 +81,13 @@ class OlxBikeSpider(scrapy.Spider):
         urls = [
             'https://olx.pl/sport-hobby/rowery/?page=%d'
         ]
-        for i in range(1, 2):
+        for i in range(1, 100):
             url_to_sc = urls[0] % i
             yield scrapy.Request(url=url_to_sc, callback=self.parse, headers=self.headers)
 
     def parse(self, response):
 
         OFFER_SELECTOR = "div.offer-wrapper"
-        # TODO : zzrobić koniec gdy osiągniemy datę
-
-        finish_flag = False
-        latest_offer_time = DBHelper().get_last_offer_time()
-        self.log(f'Starting Job - parsing function. Latest offer time is {latest_offer_time}')
         for offer in response.css(OFFER_SELECTOR):
             item_loader = BikeLoader(item=BikeDataItem(), response=response, selector=offer)
             OFFER_URL_SELECTOR = "a::attr(href)"
@@ -110,17 +101,17 @@ class OlxBikeSpider(scrapy.Spider):
             item_loader.add_css('place', PLACE_AND_TIME_SELECTOR)
             item_loader.add_css('paid_offer', OFFER_URL_SELECTOR)
             item_loader.add_css('id', OFFER_ID_SELECTOR)
-            it = item_loader.get_collected_values('url_addres')[0]
+            it = item_loader.load_item()
 
             yield Request(
-                url=it,
+                url=it["url_addres"],
                 callback=self.parse_page2,
                 meta={
-                    'item': item_loader.load_item(),
+                    'item': it,
                     'dont_redirect': True,
                     'handle_httpstatus_list': [302]
-                    },
-                    headers=self.headers
+                },
+                headers=self.headers
             )
         self.log(f'Ended spider')
 
@@ -145,9 +136,10 @@ class OlxBikeSpider(scrapy.Spider):
         item['description'] = offer_description
         item['category'] = category
 
-        yield item
-
-
+        if 'Akcesoria' in item['category']:
+            return None
+        else:
+            yield item
 
 
 def translate_datetime(input):

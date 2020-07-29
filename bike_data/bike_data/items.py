@@ -20,3 +20,4 @@ class BikeDataItem(scrapy.Item):
     paid_offer = scrapy.Field()
     added_via_phone = scrapy.Field()
     description = scrapy.Field()
+    category = scrapy.Field()

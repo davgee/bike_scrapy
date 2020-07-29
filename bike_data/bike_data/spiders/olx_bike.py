@@ -26,7 +26,10 @@ def time_and_place_in_fun(value):
     return value
 
 def second_arg(value):
-    a = value[1].replace("  ", " ")
+    if value[0] == "Brak zdjęcia":
+        a = value[2].replace("  ", " ")
+    else:
+        a = value[1].replace("  ", " ")
     a = translate_datetime(a)
     return a
 
@@ -137,8 +140,10 @@ class OlxBikeSpider(scrapy.Spider):
         a = "".join(desc).replace("\n", " ")
         b = a.replace("  ", " ")
         offer_description = b.replace("  ", " ")
+        category = response.xpath('//a[@class="link nowrap"]/span')[-1].extract().replace('<span>', '').replace('</span>', '')
         item['added_via_phone'] = offer_added_via_mobile
         item['description'] = offer_description
+        item['category'] = category
 
         yield item
 

@@ -3,12 +3,13 @@ import scrapy
 import datetime
 import re
 from bike_data.items import BikeDataItem
+from bike_data.database_utils import DBHelper
+from scrapy.exceptions import CloseSpider
 from scrapy.http import Request
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import TakeFirst
+from scrapy.selector import Selector
 
-
-URL = 'https://olx.pl/sport-hobby/rowery/?page=%d'
 
 def check_if_promoted(value):
     check = 'promoted' in value[1]
@@ -54,10 +55,34 @@ class BikeLoader(ItemLoader):
 
     added_via_phone_in = added_via_phone_in
 
+
+class RunController:
+    __instance = None
+    continue_scrapping = True
+
+    @staticmethod
+    def get_instance():
+        if RunController.__instance is None:
+            RunController()
+        return RunController.__instance
+
+    def dont_continue(self):
+        self.continue_scrapping = False
+
+    def check_if_continue(self):
+        return self.continue_scrapping
+
+    def __init__(self):
+        if RunController.__instance is not None:
+            raise Exception("This class is singleton instance!")
+        else:
+            RunController.__instance == self
+
+rc = RunController()
+
 class OlxBikeSpider(scrapy.Spider):
     name = 'olx_bike'
     allowed_domains = ['olx.com', 'olx.pl']
-    start_urls = [URL % 1]
     headers = {
     'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
@@ -76,18 +101,26 @@ class OlxBikeSpider(scrapy.Spider):
         self.page_number = 1
 
 
-
     def start_requests(self):
         urls = [
-            'https://olx.pl/sport-hobby/rowery/?page=%d'
+            'https://www.olx.pl/sport-hobby/rowery/?page=%d'
         ]
         for i in range(1, 100):
             url_to_sc = urls[0] % i
-            yield scrapy.Request(url=url_to_sc, callback=self.parse, headers=self.headers)
+            if rc.check_if_continue():
+                yield scrapy.Request(url=url_to_sc, callback=self.parse, headers=self.headers)
+            else:
+                self.log(f"Breaking!")
+                break
 
     def parse(self, response):
 
         OFFER_SELECTOR = "div.offer-wrapper"
+        # TODO : zzrobić koniec gdy osiągniemy datę
+
+        finish_flag = False
+        latest_offer_time = DBHelper().get_last_offer_time()
+        self.log(f'Starting Job - parsing function. Latest offer time is {latest_offer_time}. Run Controller = {rc}')
         for offer in response.css(OFFER_SELECTOR):
             item_loader = BikeLoader(item=BikeDataItem(), response=response, selector=offer)
             OFFER_URL_SELECTOR = "a::attr(href)"
@@ -103,17 +136,27 @@ class OlxBikeSpider(scrapy.Spider):
             item_loader.add_css('id', OFFER_ID_SELECTOR)
             it = item_loader.load_item()
 
-            yield Request(
-                url=it["url_addres"],
-                callback=self.parse_page2,
-                meta={
-                    'item': it,
-                    'dont_redirect': True,
-                    'handle_httpstatus_list': [302]
-                },
-                headers=self.headers
-            )
-        self.log(f'Ended spider')
+            item_date = datetime.datetime.strptime(it['add_time'], "%Y-%m-%d %H:%M:%S")
+            if item_date < latest_offer_time and not it['paid_offer']:
+                self.log(f"Setting finish flag to True. Item paid = {it['paid_offer']}, "
+                         f"Item time add = {it['add_time']}, latest offer in db = {latest_offer_time}")
+                rc.dont_continue()
+                return
+            if not finish_flag:
+                self.log(f"Requesting new page - with details for {it['title']}")
+                yield Request(
+                    url=it["url_addres"],
+                    callback=self.parse_page2,
+                    meta={
+                        'item': it,
+                        'dont_redirect': True,
+                        'handle_httpstatus_list': [302]
+                    },
+                    headers=self.headers
+                )
+            else:
+                self.log(f'Ended spider by reaching latest time.')
+                yield None
 
 
     def parse_page2(self, response):
